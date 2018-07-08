@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src" />
+	<classpathentry kind="con"
+		path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7" />
+	<classpathentry kind="lib"
+		path="J:/我的世界/MC服务器/cauldron1.7.10服务器/minecraft_server.1.7.10.jar" />
+	<classpathentry kind="lib"
+		path="J:/我的世界/MC服务器/cauldron1.7.10服务器/cauldron-1.7.10-server.jar">
+		<attributes>
+			<attribute name="javadoc_location"
+				value="https://docs.windit.net/Chinese_BukkitAPI/" />
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin" />
+</classpath>

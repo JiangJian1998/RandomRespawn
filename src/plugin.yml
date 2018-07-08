@@ -1,0 +1,21 @@
+name: RandomRespawn
+description: 这是一个随机复活插件。
+main: net.mcbbs.id84491135.RandomRespawn
+author: mcbbs-84491135
+version: 2.0
+commands:
+  RandomRespawn:
+    description: 随机复活插件介绍，简写rr
+    usage: §c指令错误，请输入§6“/rr ?”§c查看随机复活插件帮助！
+    aliases: [rr]
+    permission: RandomRespawn.default
+    permission-message: §c你无此命令权限！
+permissions: 
+  RandomRespawn.default:
+    default: true
+  RandomRespawn.user:
+    default: true
+  RandomRespawn.reload:
+    default: op
+  RandomRespawn.set:
+    default: op
